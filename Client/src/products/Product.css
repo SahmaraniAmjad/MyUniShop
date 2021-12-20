@@ -1,0 +1,11 @@
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+.searchNameInput {
+  width: 85% !important;
+  display: inline !important;
+}
+.searchVoiceBtn {
+  display: inline;
+}

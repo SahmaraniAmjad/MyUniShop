@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.signuptags {
+  position: relative;
+  padding-left: 30px;
+}
+
+.signup {
+  padding-top: 5%;
+}
+
+.signuprow {
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+}
+
+.signuptags {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.loginrow {
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+}
+
+.logintags {
+  padding-left: 130px;
+}
+
+.login {
+  padding-top: 5%;
+}
+
+
+
+.flex-column a {
+  color: gray;
+  padding-left: 40px;
+}
+
+.flex-column a:hover {
+  color: black;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .w-xs-100 {
+    width: 100% !important;
+  }
+
+  .w-xs-75 {
+    width: 75% !important;
+  }
+
+  .w-xs-50 {
+    width: 50% !important;
+  }
+
+  .w-xs-25 {
+    width: 25% !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+
+  .w-sm-75 {
+    width: 75% !important;
+  }
+
+  .w-sm-50 {
+    width: 50% !important;
+  }
+
+  .w-sm-25 {
+    width: 25% !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+  .w-md-75 {
+    width: 75% !important;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+
+  .w-md-25 {
+    width: 25% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .w-lg-100 {
+    width: 100% !important;
+  }
+
+  .w-lg-75 {
+    width: 75% !important;
+  }
+
+  .w-lg-50 {
+    width: 50% !important;
+  }
+
+  .w-lg-25 {
+    width: 25% !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .w-xl-100 {
+    width: 100% !important;
+  }
+
+  .w-xl-75 {
+    width: 75% !important;
+  }
+
+  .w-xl-50 {
+    width: 50% !important;
+  }
+
+  .w-xl-25 {
+    width: 25% !important;
+  }
+}
+
+.car-col-2 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.car-col-1 {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+.car-col-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+.car-col-4 {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
+
+.car-col-5 {
+  -webkit-column-count: 5;
+  -moz-column-count: 5;
+  column-count: 5;
+}
+
+.car-col-6 {
+  -webkit-column-count: 6;
+  -moz-column-count: 6;
+  column-count: 6;
+}
+
+hr {
+  position: relative;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: left;
+  height: 3px;
+}
+
+
+
+
+.btn {
+  float: right;
+ 
+}
+
+.btn1 {
+  margin-top: 1.5rem;
+}
+
+.btn2 {
+  margin-top: 1.5rem;
+}
+
+.cards {
+  width: 28rem;
+  margin-top: 1rem;
+  height: 13rem;
+}
+
+.carddeck {
+  padding-left: 2rem;
+}
+
+
+@media screen and (min-width: 992px) {
+  .sidenav {
+    max-width: 100%;
+  }
+}
+
+.spinner-center {
+  display: block;
+  position: fixed;
+  z-index: 1031; /* High z-index so it is on top of the page */
+  top: calc( 75% - ( 50px / 2) ); /* where ... is the element's height */
+  right: calc( 50% - (50px / 2) ); /* where ... is the element's width */
+}
+
+

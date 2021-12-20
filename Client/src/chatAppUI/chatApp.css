@@ -1,0 +1,49 @@
+ /* .rows{
+border:1px solid grey
+} */
+
+.Columns{
+    border-top:1px solid grey;
+    border-left:1px solid grey;
+    border-right:1px solid grey;
+    border-bottom:1px solid grey;
+    }
+    
+    .holder{
+        margin-top:1%;
+    }  
+    .blockquote-footer{
+    text-align: end;
+    margin: 2% 2% 0 0;
+    }
+    
+    .toast-header button.close {
+        display: none;
+    }
+    
+    
+    .card-body{
+        padding:2%;
+    }
+    .mr-auto{
+    margin-left: 2%;
+    }
+    
+    .toast.show{
+    margin-top:3%;
+    }
+    
+    .row{
+    
+    margin-bottom: 3%; 
+    margin-left:0;
+    margin-right:0;
+    }
+    
+    /* .card{
+     border:1px solid grey;   
+    }
+     */
+     .Columns .row{
+         margin:0px;
+     }

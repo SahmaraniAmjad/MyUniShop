@@ -1,0 +1,13 @@
+
+#tableChat{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+td .chatButton{
+    float:left;
+} 
+
+/* div.table-responsive {
+    overflow-x: hidden;
+} */
